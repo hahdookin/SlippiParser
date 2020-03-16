@@ -93,6 +93,8 @@ const resetData = () => {
     totalGamesCompleted = 0
 }
 
+// ****** For graphing data if needed ******
+
 const getBarGraph = obj => {
     const data = [
         {
@@ -128,6 +130,8 @@ const getGroupedBarChart = (obj1, obj2) => {
         console.log(msg)
     })
 }
+
+// *********************************
 
 const appendActions = (actionsArray, indexPlayer) => {
     const actions = actionsArray.slice(2)
