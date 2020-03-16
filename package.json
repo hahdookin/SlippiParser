@@ -1,0 +1,17 @@
+{
+  "name": "slippi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "plotly": "^1.0.6",
+    "slp-parser-js": "^4.1.0"
+  }
+}
