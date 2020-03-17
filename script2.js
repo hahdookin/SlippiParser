@@ -299,7 +299,7 @@ const getFrequencies = (slippiFilesPath, tag, id, type = 'all', ignorePummels = 
 
 
 const [t1] = process.hrtime()
-// getGroupedBarChart(getFrequencies(gameFilesPath, '', 7, 'actions'), getFrequencies(gameFilesPath, 'ABE', 0, 'actions'))
+// getGroupedBarChart(getFrequencies(gameFilesPath, '', 7, 'actions'), getFrequencies(gameFilesPath, '', 0, 'actions'))
 console.log(getFrequencies(gameFilesPath, '', 2))
 const [t2] = process.hrtime()
 
