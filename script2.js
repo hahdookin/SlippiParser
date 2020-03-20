@@ -299,8 +299,7 @@ const getFrequencies = (slippiFilesPath, tag, id, type = 'all', ignorePummels = 
 
 
 const [t1] = process.hrtime()
-// getGroupedBarChart(getFrequencies(gameFilesPath, '', 7, 'actions'), getFrequencies(gameFilesPath, '', 0, 'actions'))
-console.log(getFrequencies(gameFilesPath, '', 2))
+console.log(getFrequencies(gameFilesPath, '.', 2))
 const [t2] = process.hrtime()
 
 console.log(`Perfomance time: ${(t2 - t1)} seconds`)
